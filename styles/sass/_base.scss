@@ -1,0 +1,58 @@
+// variables
+
+$first-color: #2c292d;
+$first-light: #646060;
+$second-color: #ffc172;
+$second-color-light: #ffe3b3;
+$third-color: #63caa7;
+$fourth-color: #1ea9cd;
+$light-color: #eae3e3;
+// #288da7
+
+// fonts
+
+$first-font: 'Arima Madurai', cursive;
+$second-font: 'Antic Slab', serif;
+
+// weight
+// first-font: 100 - 500, 700 - 900
+// secons.. : 400
+
+// shadows
+
+$shadow-first: 1px 1px 20px rgba(24, 24, 24, 0.61);
+$shadow-second: 1px 1px 12px $second-color;
+$shadow-third: 1px 1px 12px $third-color;
+$shadow-fourth: 1px 1px 12px $fourth-color;
+
+// basic styles
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: $first-font;
+	background: $first-color;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}

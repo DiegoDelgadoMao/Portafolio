@@ -1,0 +1,20 @@
+@import './base';
+@import './mixins';
+
+// menu
+@import './menu';
+
+// home page
+@import './stylesHomePage/home-page';
+
+// blog page styles
+@import './stylesBlogPage/blogPage';
+
+// about me page
+@import './stylesAboutMePage/about-me';
+
+// footer
+@import './footer';
+
+// media querys
+@import './media-querys';

@@ -1,0 +1,48 @@
+@mixin stylesButtonActiveHome {
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	background-color: $fourth-color;
+	position: absolute;
+	bottom: -6px;
+	border-radius: 50%;
+	box-shadow: $shadow-fourth;
+}
+
+// animaciones botones en general
+
+@mixin BasicAnimationButton {
+	z-index: 1;
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 2s;
+}
+
+@mixin AnimationButtonHover {
+	transform: scale(1.08);
+	transition-property: transform;
+	transition-duration: 2s;
+}
+
+// propiedades animaciones, botones de redes sociales
+
+@mixin BasicsAnimationSocialMedia {
+	transition-property: background-color;
+	transition-duration: 500ms;
+	transition-timing-function: ease-in-out;
+}
+
+@mixin animationSocialMediaHover {
+	background-color: $second-color;
+	transition-property: background-color;
+	transition-duration: 600ms;
+	transition-timing-function: ease-in-out;
+}
+
+@mixin animationSocialMediaHoverIcon {
+	color: $first-color;
+}
+
+@mixin animationSocialMediaHoverDivs {
+	background-color: $first-color;
+}
