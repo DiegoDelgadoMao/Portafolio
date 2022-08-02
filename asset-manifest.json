@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.d9d1ac64.css",
+    "main.js": "/Portafolio/static/js/main.5489dc05.js",
+    "static/media/background-1.jpg": "/Portafolio/static/media/background-1.bb6884ea7238791813ab.jpg",
+    "static/media/screen-ogo.png": "/Portafolio/static/media/screen-ogo.3444870d3f68af90036c.png",
+    "static/media/screen-matematico.png": "/Portafolio/static/media/screen-matematico.03b7c9c4e6376ecaadb1.png",
+    "static/media/screen-game.png": "/Portafolio/static/media/screen-game.2cb4b9a2fd71052b48d7.png",
+    "static/media/screen-mimercado.png": "/Portafolio/static/media/screen-mimercado.b17bbc88529e889d14b9.png",
+    "static/media/perfil.jpeg": "/Portafolio/static/media/perfil.08c69fe2424066dd2fab.jpeg",
+    "static/media/logoTeo2.png": "/Portafolio/static/media/logoTeo2.c1b72fd2346305c4488f.png",
+    "index.html": "/Portafolio/index.html",
+    "main.d9d1ac64.css.map": "/Portafolio/static/css/main.d9d1ac64.css.map",
+    "main.5489dc05.js.map": "/Portafolio/static/js/main.5489dc05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9d1ac64.css",
+    "static/js/main.5489dc05.js"
+  ]
+}
