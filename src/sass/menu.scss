@@ -1,0 +1,73 @@
+@import './base.scss';
+
+nav {
+	width: 94%;
+	max-width: 340px;
+	height: 80px;
+	box-shadow: $main-shadow;
+	border-radius: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+	margin: 0px auto;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	right: 0;
+	background-color: $main-color;
+	z-index: 2;
+	img {
+		cursor: pointer;
+		width: 6rem;
+	}
+}
+
+.linksNav {
+	list-style-type: none;
+	display: flex;
+	column-gap: 20px;
+	align-items: center;
+	&__link {
+		display: flex;
+		flex-direction: column;
+		row-gap: 6px;
+		align-items: center;
+		cursor: pointer;
+	}
+	&__link p {
+		color: $second-color;
+		font-weight: 300;
+		font-size: 1.4rem;
+	}
+
+	&__toggle {
+		background-color: $fourth-color;
+		width: 50px;
+		height: 24px;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0px 4px;
+		cursor: pointer;
+	}
+	&__toggle--light {
+		@extend .linksNav__toggle;
+		justify-content: flex-end;
+	}
+}
+
+.lightMode nav {
+	background-color: $second-color;
+	box-shadow: $second-shadow;
+	img {
+		filter: drop-shadow(0px 0px 4px $main-color);
+	}
+}
+
+.linksNav {
+	.lightMode &__link p {
+		color: $main-color;
+	}
+}
