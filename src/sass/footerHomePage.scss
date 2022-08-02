@@ -1,0 +1,13 @@
+@import './base.scss';
+
+.homePage-footer {
+	width: 100%;
+	height: 80px;
+	border-top: 1px solid $second-color;
+	display: grid;
+	place-items: center;
+	p {
+		color: $third-color;
+		font-size: 1.6rem;
+	}
+}

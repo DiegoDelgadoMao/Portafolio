@@ -1,0 +1,125 @@
+$main-color: #2c292d;
+$main-color-ligth: #302d31;
+$second-color: #eee;
+$second-color-light: rgb(223, 223, 223);
+$third-color: #63caa7;
+$third-color-ligth: #89d4bb;
+$fourth-color: #ffc172;
+$fourth-color-ligth: #fcd29c;
+
+$main-shadow: 1px 1px 20px rgb(24 24 24 / 61%);
+$second-shadow: 0px 0px 12px #a49d9d;
+$shadow-third: 0px 0px 8px $third-color;
+$shadow-fourth: 0px 0px 8px $fourth-color;
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arima Madurai', cursive;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	padding-top: 120px;
+	background-color: $main-color;
+	// 100,200,300,400,500,700,800,900
+}
+
+.lightMode {
+	background-color: $second-color;
+}
+
+@media (min-width: 650px) {
+	html {
+		font-size: 65%;
+	}
+	body,
+	.darkMode,
+	.lightMode {
+		padding-top: 0px;
+	}
+	nav {
+		position: static;
+		width: 80px;
+		border-radius: 0px;
+		height: 100vh;
+		border-right: 1px solid $second-color;
+		box-shadow: none;
+		padding: 20px 0px;
+		flex-direction: column-reverse;
+		margin: 0px;
+		.linksNav {
+			flex-direction: column;
+			row-gap: 20px;
+			&__link {
+			}
+		}
+	}
+	.lightMode nav {
+		box-shadow: none;
+		border-right: 1px solid $main-color;
+	}
+	.App {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		.HomePage {
+			height: 100%;
+			.homePage-footer {
+				border-top: 0px;
+			}
+		}
+	}
+
+	// articlePage
+
+	.App .articlePage {
+		height: 100%;
+	}
+
+	.App .generalFooter {
+		grid-template-columns: repeat(2, minmax(250px, 350px));
+		justify-content: center;
+		gap: 0px;
+		padding: 0px;
+		height: 80px;
+		grid-template-rows: 1fr;
+	}
+}
+
+@media (min-width: 900px) {
+	// articlePage
+	.articlePage {
+		padding-top: 20px;
+	}
+	.articlePage .mainArticle-container .mainArticle {
+		padding: 40px 0px;
+		flex-direction: row;
+		justify-content: center;
+		margin: 0px auto;
+		.mainArticle__Article {
+			justify-content: space-between;
+		}
+	}
+
+	// aboutMePage
+	.App .aboutMePage main {
+		.technologies-container {
+			justify-content: space-evenly;
+		}
+		h2 {
+			margin-left: 5%;
+		}
+	}
+}
+
+.hidden {
+	display: none;
+}

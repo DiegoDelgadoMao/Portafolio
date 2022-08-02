@@ -1,0 +1,55 @@
+@import './base.scss';
+
+.HomePage {
+	width: 100%;
+	height: calc(100vh - 120px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	main {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	h1 {
+		font-size: 2rem;
+		color: $second-color;
+		font-weight: 900;
+		width: 90%;
+		margin: 0px auto;
+		max-width: 400px;
+		text-align: center;
+		line-height: 3.2rem;
+	}
+	.homePageBtn {
+		cursor: pointer;
+		display: block;
+		width: 70%;
+		max-width: 280px;
+		height: 50px;
+		background-color: $third-color;
+		margin: 0px auto;
+		border-radius: 4px;
+		border: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 20px;
+		font-size: 1.8rem;
+		color: $second-color;
+		font-weight: 500;
+		box-shadow: $shadow-third;
+		transition-property: background-color;
+		transition-duration: 500ms;
+	}
+	.homePageBtn:hover {
+		transition-property: background-color;
+		transition-duration: 500ms;
+		background-color: $third-color-ligth;
+	}
+}
+
+.lightMode .HomePage h1 {
+	color: $main-color;
+}
