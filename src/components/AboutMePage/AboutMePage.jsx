@@ -100,13 +100,13 @@ export const AboutMePage = () => {
 							</div>
 							<div className='project-info__btns'>
 								<a
-									href='https://github.com/DiegoDelgadoMao/ogo-finanzas'
+									href='https://github.com/DiegoDelgadoMao/ogo-finanzas/'
 									target='_blank'
 								>
 									<span>Ver código</span>
 									<RiFileCodeFill style={styleBaseIconSmall} />
 								</a>
-								<a href='ogo-finanzas.netlify.app/' target='_blank'>
+								<a href='https://ogo-finanzas.netlify.app/' target='_blank'>
 									<span>Ver proyecto</span>
 									<RiEye2Line style={styleBaseIconSmall} />
 								</a>
@@ -193,7 +193,7 @@ export const AboutMePage = () => {
 								</a>
 								<a
 									href='https://piedra-papel-o-tijera-juego.netlify.app/'
-									trget='_blank'
+									target='_blank'
 								>
 									<span>Ver proyecto</span>
 									<RiEye2Line style={styleBaseIconSmall} />

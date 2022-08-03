@@ -95,6 +95,9 @@ body {
 }
 
 @media (min-width: 900px) {
+	html {
+		font-size: 69%;
+	}
 	// articlePage
 	.articlePage {
 		padding-top: 20px;
@@ -110,6 +113,15 @@ body {
 	}
 
 	// aboutMePage
+	.App .aboutMePage header {
+		margin-bottom: 90px;
+		img {
+			width: 14rem;
+			height: 14rem;
+			bottom: -7rem;
+			border: 1.2rem solid $main-color;
+		}
+	}
 	.App .aboutMePage main {
 		.technologies-container {
 			justify-content: space-evenly;
