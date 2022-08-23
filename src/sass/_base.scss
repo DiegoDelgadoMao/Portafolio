@@ -98,6 +98,15 @@ body {
 	html {
 		font-size: 69%;
 	}
+	.HomePage .HomePage__btns {
+		flex-direction: row;
+		justify-content: center;
+		column-gap: 20px;
+		button,
+		a {
+			margin: 0px;
+		}
+	}
 	// articlePage
 	.articlePage {
 		padding-top: 20px;

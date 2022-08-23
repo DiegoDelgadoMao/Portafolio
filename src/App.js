@@ -2,7 +2,7 @@ import { Menu } from './components/Menu/Menu';
 import { HomePage } from './components/homePage/HomePage';
 import { ArticlePage } from './components/ArticlePage/ArticlePage';
 import { AboutMePage } from './components/AboutMePage/AboutMePage';
-import './sass/base.scss';
+import './sass/index.scss';
 
 function App() {
 	return (

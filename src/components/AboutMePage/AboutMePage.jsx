@@ -16,8 +16,6 @@ import { RiFileCodeFill, RiEye2Line } from 'react-icons/ri';
 import { GeneralFooter } from '../GeneralFooter/GeneralFooter';
 import { theContext } from '../../context/theContext';
 
-import '../../sass/aboutMePage.scss';
-
 import screenProject1 from '../../assets/screen-ogo.png';
 import screenProject2 from '../../assets/screen-mimercado.png';
 import screenProject3 from '../../assets/screen-matematico.png';
@@ -35,16 +33,21 @@ export const AboutMePage = () => {
 			<main>
 				<h2>¿QUIEN SOY?</h2>
 				<p className='aboutMe-paragraph'>
-					Me llamo Diego Mauricio Delgado Espinosa. Soy de Colombia. Me encanta
-					aprender cosas nuevas referentes a la tecnología (programación para
-					ser específico), y también sobre finanzas. Me gusta leer libros a
-					cerca de la conducta humana, novelas de ciencia ficción y lo que se me
-					atraviese que me llame la atención.
+					Soy Frontend Developer con experiencia en la creación de productos
+					digitales por medio de la web, haciendo estas aplicaciones web
+					adaptables a diferentes dispositivos, que tengan interfaces más
+					amigables y accesibles.
 				</p>
 				<p className='aboutMe-paragraph'>
-					Aquí podrás encontrar algunos de mis trabajos más reciente y las
-					tecnologías que manejo y tengo conocimiento. Espero sea de tu agrado
-					:)
+					Últimamente he estado haciendo múltiples proyectos en los que busco
+					resolver un problema en particular y presentar esta solución de la
+					manera más simple posible y que sea visualmente agradable.
+				</p>
+				<p className='aboutMe-paragraph'>
+					Me apasiona la creación de aplicaciones web que solucionen un problema
+					en concreto. Busco enfocarme en todo el desarrollo web (frontend y
+					backend) y en un cercano futuro involucrarme en construir para la web
+					3.
 				</p>
 				<h2>TECNOLOGIAS QUE MANEJO</h2>
 				<div className='technologies-container'>

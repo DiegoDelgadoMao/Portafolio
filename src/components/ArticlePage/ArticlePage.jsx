@@ -4,8 +4,6 @@ import { RiProfileFill } from 'react-icons/ri';
 
 import { theContext } from '../../context/theContext';
 
-import '../../sass/articlePage.scss';
-
 import profile from '../../assets/perfil.jpeg';
 
 import { GeneralFooter } from '../GeneralFooter/GeneralFooter';

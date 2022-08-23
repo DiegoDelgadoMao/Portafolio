@@ -7,8 +7,6 @@ import {
 	RiLinkedinBoxFill,
 } from 'react-icons/ri';
 
-import '../../sass/socialNetworks.scss';
-
 export const SocialNetworks = () => {
 	const styleBaseIcon = {
 		fontSize: '2.5rem',

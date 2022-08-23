@@ -10,9 +10,6 @@ import {
 
 import Logo from '../../assets/logoTeo2.png';
 
-import '../../sass/base.scss';
-import '../../sass/menu.scss';
-
 const stylesBaseIcons = {
 	fontSize: '1.8rem',
 	color: '#eee',

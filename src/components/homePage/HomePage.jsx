@@ -1,16 +1,8 @@
 import React, { useContext } from 'react';
-import {
-	RiArrowRightFill,
-	RiGithubFill,
-	RiInstagramFill,
-	RiTwitterFill,
-	RiLinkedinBoxFill,
-} from 'react-icons/ri';
+import { RiArrowRightFill, RiFileUserFill } from 'react-icons/ri';
 
 import { FooterHomePage } from '../FooterHomePage/FooterHomePage';
 import { SocialNetworks } from '../SocialNetworks/SocialNetworks';
-
-import '../../sass/homePage.scss';
 
 import { theContext } from '../../context/theContext';
 import { CHANGE_CONTENT_TYPES } from '../../actions/changeContentTypes';
@@ -31,10 +23,21 @@ export const HomePage = () => {
 					Soy Diego Mauricio Delgado Espinosa, frontend developer apasionado por
 					la tecnología y la programación
 				</h1>
-				<button onClick={handleClick} className='homePageBtn'>
-					<p>Conoce más</p>
-					<RiArrowRightFill style={styleBaseIcon} />
-				</button>
+				<div className='HomePage__btns'>
+					<button onClick={handleClick} className='homePageBtn'>
+						<p>Conoce más</p>
+						<RiArrowRightFill style={styleBaseIcon} />
+					</button>
+					<a
+						href='https://drive.google.com/file/d/1Q6n9OfduabijVTfWz1N6azIEtcVt2i7h/view?usp=sharing'
+						target='_blank'
+						className='homePageBtn homePageBtn--CV'
+					>
+						<p>Ver CV</p>
+						<RiFileUserFill style={styleBaseIcon} />
+					</a>
+				</div>
+
 				<SocialNetworks />
 			</main>
 			<FooterHomePage />
