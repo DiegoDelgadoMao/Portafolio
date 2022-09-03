@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.0fd929d5.css",
-    "main.js": "/Portafolio/static/js/main.905a1d4b.js",
-    "static/media/background-1.jpg": "/Portafolio/static/media/background-1.bb6884ea7238791813ab.jpg",
-    "static/media/screen-ogo.png": "/Portafolio/static/media/screen-ogo.3444870d3f68af90036c.png",
-    "static/media/screen-matematico.png": "/Portafolio/static/media/screen-matematico.03b7c9c4e6376ecaadb1.png",
-    "static/media/screen-game.png": "/Portafolio/static/media/screen-game.2cb4b9a2fd71052b48d7.png",
-    "static/media/screen-mimercado.png": "/Portafolio/static/media/screen-mimercado.b17bbc88529e889d14b9.png",
-    "static/media/perfil.jpeg": "/Portafolio/static/media/perfil.08c69fe2424066dd2fab.jpeg",
+    "main.css": "/Portafolio/static/css/main.5cdd1872.css",
+    "main.js": "/Portafolio/static/js/main.5345afc5.js",
+    "static/media/banner.png": "/Portafolio/static/media/banner.1bbf12c1d0383c9dbf83.png",
+    "static/media/screen-store.png": "/Portafolio/static/media/screen-store.4aa4b41d10c5ddd087bb.png",
+    "static/media/screen-ogo.png": "/Portafolio/static/media/screen-ogo.ca05f22751a1f95e923a.png",
+    "static/media/screen-game.png": "/Portafolio/static/media/screen-game.5bb2457c98150e557888.png",
+    "static/media/screen-matematico.png": "/Portafolio/static/media/screen-matematico.2de1f4e22bec60c5f44c.png",
+    "static/media/screen-mimercado.png": "/Portafolio/static/media/screen-mimercado.2ac7a97dccd33ebb398e.png",
+    "static/media/profile1.jpeg": "/Portafolio/static/media/profile1.e53ca5650abd3961315d.jpeg",
     "static/media/logoTeo2.png": "/Portafolio/static/media/logoTeo2.c1b72fd2346305c4488f.png",
     "index.html": "/Portafolio/index.html",
-    "main.0fd929d5.css.map": "/Portafolio/static/css/main.0fd929d5.css.map",
-    "main.905a1d4b.js.map": "/Portafolio/static/js/main.905a1d4b.js.map"
+    "main.5cdd1872.css.map": "/Portafolio/static/css/main.5cdd1872.css.map",
+    "main.5345afc5.js.map": "/Portafolio/static/js/main.5345afc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fd929d5.css",
-    "static/js/main.905a1d4b.js"
+    "static/css/main.5cdd1872.css",
+    "static/js/main.5345afc5.js"
   ]
 }
