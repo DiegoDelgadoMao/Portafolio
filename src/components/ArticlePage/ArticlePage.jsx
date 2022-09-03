@@ -4,7 +4,7 @@ import { RiProfileFill } from 'react-icons/ri';
 
 import { theContext } from '../../context/theContext';
 
-import profile from '../../assets/perfil.jpeg';
+import profile from '../../assets/profile1.jpeg';
 
 import { GeneralFooter } from '../GeneralFooter/GeneralFooter';
 
@@ -45,7 +45,7 @@ export const ArticlePage = () => {
 				<div className='mainArticle'>
 					<div className='mainArticle__banner'>
 						<span>Artículo más reciente</span>
-						<img src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
+						<img alt='imagen de articulo' src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
 					</div>
 					<div className='mainArticle__Article'>
 						<h2>Titulo del artículo</h2>
@@ -68,7 +68,7 @@ export const ArticlePage = () => {
 					{articles.map(article => {
 						return (
 							<article key={article.title} className='article'>
-								<img src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
+								<img alt='foto de articulo' src='https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
 								<h4>{article.title}</h4>
 								<p>{article.paragraph}</p>
 								<button className='article__btn'>
@@ -76,7 +76,7 @@ export const ArticlePage = () => {
 									<RiProfileFill style={styleBaseIcon} />
 								</button>
 								<div className='article-footer'>
-									<img src={profile} />
+									<img src={profile} loading='lazy' alt='Foto de Diego Delgado' />
 									<div className='article-footer__info'>
 										<h5>Diego Delgado</h5>
 										<time>{article.time}</time>

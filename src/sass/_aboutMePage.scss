@@ -10,7 +10,7 @@
 		width: 100%;
 		height: 400px;
 		margin-bottom: 60px;
-		background-image: url('../assets/background-1.jpg');
+		background-image: url('../assets/banner.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -73,6 +73,9 @@
 			font-weight: 400;
 			scroll-snap-align: center;
 		}
+		.technology svg{
+			font-size: 3rem;
+		}
 	}
 }
 
@@ -123,7 +126,13 @@
 			display: flex;
 			width: 80%;
 			margin: 0px auto;
-			column-gap: 10px;
+			column-gap: 4px;
+		}
+		&__technologiesPackage p{
+			font-size: 1.4rem;
+			width: auto;
+			text-decoration:underline;
+			font-weight: 900;
 		}
 		&__btns {
 			display: flex;
@@ -146,6 +155,9 @@
 			transition-duration: 500ms;
 			text-decoration: none;
 		}
+		&__btns a svg {
+			font-size: 2rem;
+		}
 		&__btns a:nth-child(1):hover {
 			transition-property: background-color;
 			transition-duration: 500ms;
@@ -161,7 +173,7 @@
 	}
 }
 
-.lightMode .aboutMePage {
+.lightMode .App .aboutMePage {
 	header {
 		img {
 			border: 0.8rem solid $second-color;

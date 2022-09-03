@@ -29,7 +29,7 @@ export const HomePage = () => {
 						<RiArrowRightFill style={styleBaseIcon} />
 					</button>
 					<a
-						href='https://drive.google.com/file/d/1Q6n9OfduabijVTfWz1N6azIEtcVt2i7h/view?usp=sharing'
+						href='https://drive.google.com/file/d/1IixsQzhP2JAqt6wb1nhpMj0c2u-t-eu1/view?usp=sharing'
 						target='_blank'
 						className='homePageBtn homePageBtn--CV'
 					>
