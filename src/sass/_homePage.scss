@@ -42,7 +42,7 @@
 		align-items: center;
 		column-gap: 20px;
 		font-size: 1.8rem;
-		color: $second-color;
+		color: $main-color;
 		font-weight: 500;
 		box-shadow: $shadow-third;
 		transition-property: background-color;
@@ -50,7 +50,6 @@
 	}
 	.homePageBtn--CV {
 		background-color: $fourth-color;
-		color: $second-color;
 		box-shadow: $shadow-fourth;
 		text-decoration: none;
 	}
