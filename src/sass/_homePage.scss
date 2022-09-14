@@ -22,11 +22,6 @@
 		text-align: center;
 		line-height: 3.2rem;
 	}
-	&__btns {
-		display: flex;
-		flex-direction: column;
-		row-gap: 20px;
-	}
 	.homePageBtn {
 		cursor: pointer;
 		display: block;
@@ -48,18 +43,10 @@
 		transition-property: background-color;
 		transition-duration: 500ms;
 	}
-	.homePageBtn--CV {
-		background-color: $fourth-color;
-		box-shadow: $shadow-fourth;
-		text-decoration: none;
-	}
 	.homePageBtn:hover {
 		transition-property: background-color;
 		transition-duration: 500ms;
 		background-color: $third-color-ligth;
-	}
-	.homePageBtn--CV:hover {
-		background-color: $fourth-color-ligth;
 	}
 }
 

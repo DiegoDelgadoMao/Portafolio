@@ -28,21 +28,14 @@ export const AboutMePage = () => {
 			<main>
 				<h2>¿QUIEN SOY?</h2>
 				<p className='aboutMe-paragraph'>
-					Soy Frontend Developer con experiencia en la creación de productos
-					digitales por medio de la web, haciendo estas aplicaciones web
-					adaptables a diferentes dispositivos, que tengan interfaces más
-					amigables y accesibles.
+					Soy Front-end Developer con experiencia en la creación de productos
+					digitales por medio de la web, enfocando estas aplicaciones web en la experiencia de usuarios.
 				</p>
 				<p className='aboutMe-paragraph'>
-					Últimamente he estado haciendo múltiples proyectos en los que busco
-					resolver un problema en particular y presentar esta solución de la
-					manera más simple posible y que sea visualmente agradable.
+					Disfruto la creacion de aplicaciones web, aprender tecnologias como javascript y crear cosas con ellas. Quiero involucrarme en todo el flujo del desarrollo web, para posteriormemte crear grandiosas cosas por medio de la web,
 				</p>
 				<p className='aboutMe-paragraph'>
-					Me apasiona la creación de aplicaciones web que solucionen un problema
-					en concreto. Busco enfocarme en todo el desarrollo web (frontend y
-					backend) y en un cercano futuro involucrarme en construir para la web
-					3.
+					Me he enfocado en crear proyectos en los que busco resolver un problema en particular y presentar esta solución de la manera más simple posible y visualmente agradable, por ende por medio de tecnologias como react busco que los usuarios tengan una gran experiencia en la navegacion de la aplicacion web.
 				</p>
 				<h2>TECNOLOGIAS QUE MANEJO</h2>
 				<div className='technologies-container'>

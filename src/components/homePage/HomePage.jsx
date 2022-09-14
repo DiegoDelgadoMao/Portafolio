@@ -20,24 +20,12 @@ export const HomePage = () => {
 		<div className={state.homePage ? 'HomePage' : 'hidden'}>
 			<main>
 				<h1>
-					Soy Diego Mauricio Delgado Espinosa, frontend developer apasionado por
-					la tecnología y la programación
+					Soy Diego Mauricio Delgado Espinosa, Front-end developer creando aplicaciones web enfocadas en la experiencia de usuario.
 				</h1>
-				<div className='HomePage__btns'>
-					<button onClick={handleClick} className='homePageBtn'>
-						<p>Conoce más</p>
-						<RiArrowRightFill style={styleBaseIcon} />
-					</button>
-					<a
-						href='https://drive.google.com/file/d/1x43ym4EE7xJOCXz0Q99-ETVX0ofx_NUq/view?usp=sharing'
-						target='_blank'
-						className='homePageBtn homePageBtn--CV'
-					>
-						<p>Ver CV</p>
-						<RiFileUserFill style={styleBaseIcon} />
-					</a>
-				</div>
-
+				<button onClick={handleClick} className='homePageBtn'>
+					<p>Conoce más</p>
+					<RiArrowRightFill style={styleBaseIcon} />
+				</button>
 				<SocialNetworks />
 			</main>
 			<FooterHomePage />
