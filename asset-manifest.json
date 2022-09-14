@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.6b3cd43f.css",
-    "main.js": "/Portafolio/static/js/main.cddfb4fd.js",
+    "main.css": "/Portafolio/static/css/main.4a15bb20.css",
+    "main.js": "/Portafolio/static/js/main.3ebafd61.js",
     "static/media/banner.png": "/Portafolio/static/media/banner.1bbf12c1d0383c9dbf83.png",
     "static/media/screen-store.png": "/Portafolio/static/media/screen-store.4aa4b41d10c5ddd087bb.png",
     "static/media/screen-ogo.png": "/Portafolio/static/media/screen-ogo.ca05f22751a1f95e923a.png",
@@ -11,11 +11,11 @@
     "static/media/profile1.jpeg": "/Portafolio/static/media/profile1.e53ca5650abd3961315d.jpeg",
     "static/media/logoTeo2.png": "/Portafolio/static/media/logoTeo2.c1b72fd2346305c4488f.png",
     "index.html": "/Portafolio/index.html",
-    "main.6b3cd43f.css.map": "/Portafolio/static/css/main.6b3cd43f.css.map",
-    "main.cddfb4fd.js.map": "/Portafolio/static/js/main.cddfb4fd.js.map"
+    "main.4a15bb20.css.map": "/Portafolio/static/css/main.4a15bb20.css.map",
+    "main.3ebafd61.js.map": "/Portafolio/static/js/main.3ebafd61.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b3cd43f.css",
-    "static/js/main.cddfb4fd.js"
+    "static/css/main.4a15bb20.css",
+    "static/js/main.3ebafd61.js"
   ]
 }
