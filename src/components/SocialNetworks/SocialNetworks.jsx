@@ -26,7 +26,7 @@ export const SocialNetworks = () => {
 				<RiGithubFill />
 			</a>
 			<a
-				href={socialNetworksUrl.twitterw}
+				href={socialNetworksUrl.twitter}
 				target='_blank'
 				className='socialNetwork-container'
 			>
@@ -35,7 +35,7 @@ export const SocialNetworks = () => {
 				<RiTwitterFill />
 			</a>
 			<a
-				href={socialNetworksUrl.github}
+				href={socialNetworksUrl.linkedin}
 				target='_blank'
 				className='socialNetwork-container'
 			>
